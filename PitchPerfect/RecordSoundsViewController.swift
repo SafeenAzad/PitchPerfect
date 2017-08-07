@@ -66,6 +66,22 @@ class RecordSoundsViewControllerViewController: UIViewController, AVAudioRecorde
         print("Recording was not successfull.")
         }
     }
+    
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
