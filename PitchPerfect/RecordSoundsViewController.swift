@@ -60,7 +60,11 @@ class RecordSoundsViewControllerViewController: UIViewController, AVAudioRecorde
         try! audioSession.setActive(false)
     }
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
-        print("Finished recording.")
+        if flag{
+            performSegue(withIdentifier: "StopRecording", sender: audioRecorder.url)
+        }else{
+        print("Recording was not successfull.")
+        }
     }
 
 }
