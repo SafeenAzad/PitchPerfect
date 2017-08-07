@@ -39,7 +39,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKD-O1-ljZ">
-                                <rect key="frame" x="110" y="448" width="155" height="155"/>
+                                <rect key="frame" x="147" y="484" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="2zQ-g6-8dN"/>
+                                    <constraint firstAttribute="width" constant="80" id="iVx-iw-t1n"/>
+                                </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="StopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6yU-fp-h5j"/>
@@ -48,11 +52,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="gKD-O1-ljZ" firstAttribute="top" secondItem="1Pf-GW-Fet" secondAttribute="bottom" constant="8" id="DlS-Vu-TxE"/>
-                            <constraint firstItem="gKD-O1-ljZ" firstAttribute="centerX" secondItem="1Pf-GW-Fet" secondAttribute="centerX" id="LIF-iZ-M56"/>
+                            <constraint firstItem="gKD-O1-ljZ" firstAttribute="top" secondItem="1Pf-GW-Fet" secondAttribute="bottom" constant="44" id="BVs-BW-qYL"/>
                             <constraint firstItem="AYU-xM-9BQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qui-yW-zfk"/>
                             <constraint firstItem="1Pf-GW-Fet" firstAttribute="centerX" secondItem="AYU-xM-9BQ" secondAttribute="centerX" id="a8d-JY-Ueb"/>
                             <constraint firstItem="1Pf-GW-Fet" firstAttribute="top" secondItem="AYU-xM-9BQ" secondAttribute="bottom" constant="8" id="aZz-2G-FQR"/>
+                            <constraint firstItem="gKD-O1-ljZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bdF-2F-kVD"/>
                             <constraint firstItem="AYU-xM-9BQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dKw-06-fkh"/>
                         </constraints>
                     </view>
@@ -66,7 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1140" y="139"/>
+            <point key="canvasLocation" x="1140" y="138.98050974512745"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TVf-2s-CFm">
